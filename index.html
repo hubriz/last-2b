@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>2B Interactive</title>
+	<link href="//fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<link rel="stylesheet" href="css/slicknav.min.css">
+	<link rel="stylesheet" href="css/jquery.offcanvas.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<script src="js/modernizr-2.8.3.min.js"></script>
+
+</head>
+<body>
+ <!--[if lte IE 9]>
+ 		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+
+	<div class="site-wrapper">
+
+		<!-- OffCanvas Nav -->
+		<nav class="nav" id="offcanvas">
+			<button class="nav-closer"><i class="ion-android-close"></i></button>
+			<!-- <ul>
+				<li><a href="">What We Do</a></li>
+				<li><a href="">Our Work</a></li>
+				<li><a href="">Blog</a></li>
+				<li><a href="">Contact Us</a></li>
+			</ul> -->
+		</nav>
+
+		<div class="header-bar">
+			<div class="header-bar-inner">
+				<div class="left-content">
+					<a href="/" id="site-logo"><i class="ion-podium"></i></a>
+				</div>
+				<div class="right-content">
+					<a href="index.html" class="nav-toggle offcanvas-button"><i class="ion-more"></i></a>
+					<ul id="main-nav">
+						<li><a href="">What We Do</a></li>
+						<li><a href="">Our Work</a></li>
+						<li><a href="">Blog</a></li>
+						<li><a href="">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+ 		<div class="featured-section">
+			<div id="featured-content">
+				<video id="featured-video" poster="video/Paperwork.jpg" autoplay muted loop preload>
+					 <source src="video/Paperwork.mp4" type="video/mp4" />
+					 <source src="video/Paperwork.webm" type="video/webm" />
+					 <source src="video/Paperwork.ogv" type="video/ogg" />
+				 <p>*Video not supported</p>
+				</video>
+				<div id="featured-caption">
+			    <h2>We create <span class="on-red-bg">customer experiences</span> that <strong>Drive Demand</strong> for your business</h2>
+			  </div>
+				<div class="video-controls">
+					<button id="video-control-play"><i class="ion-pause"></i></button>
+					<button id="video-control-mute"><i class="ion-android-volume-mute"></i><!--<i class="ion-android-volume-off"></i>--></button>
+				</div>
+			</div>
+
+
+			<!-- FEATURED CAROUSEL -->
+			 <!-- <div class="carousel slide" id="featured-content">
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="img/img-featured.jpg" alt="Featured Content">
+						<div class="carousel-caption">
+							<h1>We create <span class="on-red-bg">customer experiences</span> that <strong>Drive Demand</strong> for your business</h1>
+						</div>
+					</div>
+				</div>
+			</div> -->
+
+				<a href="#primary-content" class="scroll-to"><i class="ion-chevron-down"></i></a>
+		</div>
+
+		<div class="primary-section" id="primary-content">
+			<div class="primary-section-inner">
+				<div class="header-title">
+					<h1>Our capabilities</h1>
+					<p>We are more than just an agency.. crafting customer experiences and building meaningful connections.</p>
+				</div>
+				<div class="section-content">
+					<ul class="tabs-nav">
+						<li class="active"><a href="#tab1">Customer experience management</a></li>
+						<li><a href="#tab2">Agency channels</a></li>
+						<li><a href="#tab3">Our credentials</a></li>
+					</ul>
+					<div class="tabbed-content">
+						<div id="tab1" class="tab-pane active">
+							<ul class="list-inline">
+								<li>
+									<div class="list-wrapper">
+										<img src="img/icon-contact-management.png" alt="icon">
+										<h4>Contact Management</h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+								</li>
+								<li>
+									<div class="list-wrapper">
+										<img src="img/icon-lead-scoring.png" alt="icon">
+										<h4>Lead Scoring</h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+								</li>
+								<li>
+									<div class="list-wrapper">
+										<img src="img/icon-contact-personalization.png" alt="icon">
+										<h4>Contact Personalization</h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+								</li>
+								<li>
+									<div class="list-wrapper">
+										<img src="img/icon-marketing-automation.png" alt="icon">
+										<h4>Marketing Automation</h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+								</li>
+								<li>
+									<div class="list-wrapper">
+										<img src="img/icon-analytics-optimization.png" alt="icon">
+										<h4>Analytics - Optimisation</h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div id="tab2" class="tab-pane">
+							<h3>This is a Title 2</h3>
+							<p>Content goes here..</p>
+						</div>
+						<div id="tab3" class="tab-pane">
+							<h3>This is a Title 3</h3>
+							<p>Content goes here..</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="secondary-section">
+			<div class="secondary-section-inner">
+				<div class="header-title">
+					<h1>See us in action</h1>
+					<p>We love transforming our clients&rsquo; lives and making them easier and better. Take a look at the results of our partnerships over the years with the clients form different sectors.</p>
+				</div>
+			</div>
+
+			<!-- First Row -->
+			<div class="section-content">
+				<div class="grid-content">
+					<img src="img/img-see-us-in-action-1.jpg" alt="grid thumbnail">
+					<div class="text-caption">
+						<h1>lorem ipsum</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus animi molestias sequi labore fuga. Consequatur, veniam, eaque.</p>
+						<a href="" class="btn-find-out-more">Find out more</a>
+					</div>
+				</div>
+				<div class="grid-content">
+					<img src="img/img-see-us-in-action-2.jpg" alt="grid thumbnail">
+					<div class="text-caption">
+						<h1>lorem ipsum</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus animi molestias sequi labore fuga. Consequatur, veniam, eaque.</p>
+						<a href="" class="btn-find-out-more">Find out more</a>
+					</div>
+				</div>
+				<div class="grid-content">
+					<img src="img/img-see-us-in-action-3.jpg" alt="grid thumbnail">
+					<div class="text-caption">
+						<h1>lorem ipsum</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus animi molestias sequi labore fuga. Consequatur, veniam, eaque.</p>
+						<a href="" class="btn-find-out-more">Find out more</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Second Row -->
+			<div class="section-content">
+				<div class="grid-content">
+					<img src="img/img-see-us-in-action-4.jpg" alt="grid thumbnail">
+					<div class="text-caption">
+						<h1>lorem ipsum</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus animi molestias sequi labore fuga. Consequatur, veniam, eaque.</p>
+						<a href="" class="btn-find-out-more">Find out more</a>
+					</div>
+				</div>
+				<div class="grid-content">
+					<img src="img/img-see-us-in-action-5.jpg" alt="grid thumbnail">
+					<div class="text-caption">
+						<h1>lorem ipsum</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus animi molestias sequi labore fuga. Consequatur, veniam, eaque.</p>
+						<a href="" class="btn-find-out-more">Find out more</a>
+					</div>
+				</div>
+				<div class="grid-content">
+					<img src="img/img-see-us-in-action-6.jpg" alt="grid thumbnail">
+					<div class="text-caption">
+						<h1>lorem ipsum</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus animi molestias sequi labore fuga. Consequatur, veniam, eaque.</p>
+						<a href="" class="btn-find-out-more">Find out more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="tertiary-section">
+			<div class="tertiary-section-inner">
+				<div class="header-title">
+					<h1>Digital down-lo</h1>
+					<p>We love sharing news and tidbits&#33; Stay in touch and discover what&rsquo;s news in our world.</p>
+				</div>
+				<div class="section-content">
+					<div class="box-content box-shadow-effect">
+						<div class="box-wrapper">
+							<img src="img/img-digital-down-1.jpg" alt="thumbnail">
+							<div class="box-content-text">
+								<h4>Excepteur sint occa</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+								<a href="" class="btn-find-out-more-red">Find out more</a>
+							</div>
+						</div>
+					</div>
+					<div class="box-content box-shadow-effect">
+						<div class="box-wrapper">
+							<img src="img/img-digital-down-2.jpg" alt="thumbnail">
+							<div class="box-content-text">
+								<h4>Excepteur sint occa</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+								<a href="" class="btn-find-out-more-red">Find out more</a>
+							</div>
+						</div>
+					</div>
+					<div class="box-content box-shadow-effect">
+						<div class="box-wrapper">
+							<img src="img/img-digital-down-3.jpg" alt="thumbnail">
+							<div class="box-content-text">
+								<h4>Excepteur sint occa</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+								<a href="" class="btn-find-out-more-red">Find out more</a>
+							</div>
+						</div>
+					</div>
+					<div class="box-content box-shadow-effect">
+						<div class="box-wrapper">
+							<img src="img/img-digital-down-4.jpg" alt="thumbnail">
+							<div class="box-content-text">
+								<h4>Excepteur sint occa</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+								<a href="" class="btn-find-out-more-red">Find out more</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Our Newsletter -->
+				<div class="header-title inverse">
+					<h1>Our Newsletter</h1>
+					<p>Subscribe to our newsletter to receive news, updates and new releases by email. We never spam.</p>
+				</div>
+				<div class="section-content">
+					<ul id="subscribe-to-newsletter">
+						<li><input type="text" placeholder="Enter Your First Name"></li>
+						<li><input type="text" placeholder="Enter Your Email Address"> <button type="button">Subscribe</button></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-section">
+			<img src="img/banner-say-hello.jpg" alt="Say Hello Banner">
+			<div class="footer-section-inner">
+				<div class="header-title">
+					<h1>Say hello</h1>
+					<p><span>Why don&rsquo;t you call, e-mail, or chat with us so we can discuss your digital marketing needs. It&rsquo;s nothing complicated.</span> <span>Trust us, it&rsquo;s just like meeting up with a friend over coffee.</span></p>
+				</div>
+				<div class="section-content">
+					<ul class="centered-list">
+						<li><p><a href="tel:+61294183233"><img src="img/icon-call.png" alt="call"> +61 2 9418 3233</a></p></li>
+						<li><p><a href="mailto:contact@2binteractive.agency"><img src="img/icon-mail.png" alt="mail"> contact@2binteractive.agency</a></p></li>
+					</ul>
+				</div>
+				<div class="section-content">
+					<div class="left-content">
+						<h5><img src="img/icon-marker.png" alt="Sydney"> Sydney</h5>
+						<p><span>Suite 1A Level 2, 802 Pacific Highway</span> <span>Gordon Australia 2072</span></p>
+					</div>
+					<div class="right-content">
+						<h5><img src="img/icon-marker.png" alt="Manila"> Manila</h5>
+						<p><span>20th Floor, Picadilly Star, 4th Avenue corner 27th Street,</span> <span>Bonifacio Global City, Metro Manila Philippines 1634</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="location-map">
+			<iframe src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3317.216844194459!2d151.14984631520727!3d-33.75506198068782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12aec2cb101b65%3A0xbf883aeb4cd1b977!2s2BInteractive!5e0!3m2!1sen!2sph!4v1472715079217" width="100%" height="244" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+
+		<div class="bottom-section">
+			<div class="bottom-section-inner">
+				<p class="copyright">&copy;2016 2B Interactive Pty Ltd. All Rights Reserved.</p>
+				<ul>
+					<li><a href="" target="_blank"><i class="ion-social-facebook"></i></a></li>
+					<li><a href="" target="_blank"><i class="ion-social-twitter"></i></a></li>
+					<li><a href="" target="_blank"><i class="ion-social-instagram"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/velocity.min.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
+<script src="js/jquery.offcanvas.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
